@@ -23,4 +23,4 @@ To use the LambdaHash class, send an HTTP POST request to the API Gateway endpoi
 
 Example Request:
 
-https://ygu2jt25lh.execute-api.us-east-2.amazonaws.com/default/hash?input=MySecretPassword123!
+https://ygu2jt25lh.execute-api.us-east-2.amazonaws.com/default/hash?input=MySecretPassword12$3

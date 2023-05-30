@@ -19,8 +19,8 @@ Please refer to lambda_hash_diagram.png for a graphic explanation.
 
 LambdaHash.java is a serverless AWS Lambda function that generates a SHA-256 hash for a given string if the string meets certain criteria. The function is designed to be deployed and invoked through AWS API Gateway as a RESTful endpoint.
 
-To use the LambdaHash class, send an HTTP POST request to the API Gateway endpoint with the input string in the request body. The Lambda function will generate a SHA-256 hash for the input string and return the result in the response.
+To use the LambdaHash class, send an HTTP GET request to the API Gateway endpoint with the input string as the 'input' param. The Lambda function will generate a SHA-256 hash for the input string and return the result in a JSON response.
 
-Example Request:
+Example request:
 
 https://ygu2jt25lh.execute-api.us-east-2.amazonaws.com/default/hash?input=MySecretPassword12$3
